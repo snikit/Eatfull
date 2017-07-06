@@ -38,8 +38,8 @@ public class GordonService {
 			menuItems = new int[itemCount];
 			itemSatisfactions = new int[itemCount];
 			for (Integer i = 0; i < itemCount; i++) {
-				menuItems[i] = s.nextInt();
 				itemSatisfactions[i] = s.nextInt();
+				menuItems[i] = s.nextInt();
 			}
 		} catch (Exception e) {
 			throw new ReadDataException();
